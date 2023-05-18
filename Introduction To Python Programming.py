@@ -83,3 +83,19 @@ addition(12, 18)
 
 sum = addition(11, 13)
 print(sum)
+
+
+print(abs(-23))
+print(abs(12))
+print(bool(-1))
+print(bool(1))
+print(bool(None))
+
+
+someoneValue = 3
+print(str(someoneValue))
+print(float(someoneValue))
+print(int(someoneValue))
+
+
+
