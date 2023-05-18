@@ -61,3 +61,25 @@ for i in range(2, 6):
     for j in range(6, 9):
         print(i+j)
 
+c = 3
+while(c<=7):
+    print(c)
+    if(c==5):
+        break
+    c= c+1
+
+try:
+    if (x > 25):
+        print("you are an adult")
+except:
+    print("something is wrong in your code")
+
+
+#function
+
+def addition (number1, number2):
+    print(number1+number2)
+addition(12, 18)
+
+sum = addition(11, 13)
+print(sum)
